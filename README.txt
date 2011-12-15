@@ -18,3 +18,18 @@ Usage
 
 This is a Plone viewlet that shows your site visitors a banner prompting them
 to upgrade their browser for a better experience.
+
+Add ``collective.ie8nomore`` to your list of python eggs. For example, for 
+buildout::
+
+  [buildout]
+  
+  eggs = 
+      ...
+      collective.ie8nomore
+      
+You don't need to install the product in the control panel. You just need to
+restart Plone and configure the order of your viewlets. To be able to do so, 
+visit http://plonesite/@@manage-viewlets .
+
+

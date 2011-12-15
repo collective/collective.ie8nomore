@@ -10,6 +10,8 @@
     xmlns:zcml="http://namespaces.zope.org/zcml"
     zcml:condition="have plone-41" />
     
+  <i18n:registerTranslations directory="locales" />
+    
   <browser:resourceDirectory 
     name="collective.ie8nomore"
     directory="static"
