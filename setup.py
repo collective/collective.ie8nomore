@@ -41,5 +41,8 @@ setup(name='collective.ie8nomore',
       ],
       entry_points="""
       # -*- Entry points: -*-
+      [z3c.autoinclude.plugin]
+      target = plone
+
       """,
       )

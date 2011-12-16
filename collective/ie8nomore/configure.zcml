@@ -6,10 +6,6 @@
 
   <!-- Include configuration for dependencies listed in setup.py -->
   <includeDependencies package="." />
-  <include package="Products.CMFCore" file="permissions.zcml"
-    xmlns:zcml="http://namespaces.zope.org/zcml"
-    zcml:condition="have plone-41" />
-    
   <i18n:registerTranslations directory="locales" />
     
   <browser:resourceDirectory 
