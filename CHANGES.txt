@@ -1,20 +1,34 @@
 Changelog
 =========
 
+0.3 (16-Dec-2011)
+-----------------
+
+ * Update version to 0.3. 
+
+ * Update trove classifiers.
+
+ * Update package URL
+
+ * Use z3c.autoinclude to avoid ZCML slug in buildout. Remove unnedded ZCML declaration
+
+
 0.2 (15-Dec-2011)
 -----------------
 
- - Add spanish translations.
+ * Add spanish translations.
  
- - Update documentation.
+ * Update documentation.
  
- - Improve CSS.
+ * Improve CSS.
  
- - Add a wrapper div.
+ * Add a wrapper div.
+
 
 0.1dev (unreleased)
 -------------------
 
-- Package created using zopeskel
+ * Package created using zopeskel
 
-- Add the viewlet.
+ * Add the viewlet.
+
