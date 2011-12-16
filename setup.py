@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.2'
+version = '0.3'
 
 long_description = (
     open('README.txt').read()
@@ -21,9 +21,14 @@ setup(name='collective.ie8nomore',
       # Get more strings from
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
+        "Development Status :: 4 - Beta",
         "Framework :: Plone",
+        "Framework :: Plone :: 4.1",
         "Programming Language :: Python",
         "Topic :: Software Development :: Libraries :: Python Modules",
+        "License :: OSI Approved :: GNU General Public License (GPL)",
+        "Natural Language :: English",
+        "Natural Language :: Spanish",
         ],
       keywords='plone internet explorer',
       author='Noe Nieto',
