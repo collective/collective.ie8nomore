@@ -1,2 +1,4 @@
+Contributors
+============
 
  * Noe Nieto, original author.

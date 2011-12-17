@@ -1,17 +1,14 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.3'
+version = '0.4'
 
 long_description = (
     open('README.txt').read()
     + '\n' +
-    'Contributors\n'
-    '============\n'
+    open(os.path.join('docs', 'CONTRIBUTORS.txt')).read()
     + '\n' +
-    open('CONTRIBUTORS.txt').read()
-    + '\n' +
-    open('CHANGES.txt').read()
+    open(os.path.join('docs', 'CHANGES.txt')).read()
     + '\n')
 
 setup(name='collective.ie8nomore',
@@ -50,4 +47,5 @@ setup(name='collective.ie8nomore',
       target = plone
 
       """,
+      paster_plugins=["ZopeSkel"],
       )
