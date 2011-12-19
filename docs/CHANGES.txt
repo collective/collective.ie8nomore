@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.5 (unreleased)
+----------------
+
+ * Added Italian translation
+  [giacomos] 
+
 0.4 (16-Dec-2011)
 -----------------
 
