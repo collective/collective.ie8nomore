@@ -45,7 +45,6 @@ setup(name='collective.ie8nomore',
       # -*- Entry points: -*-
       [z3c.autoinclude.plugin]
       target = plone
-
       """,
       paster_plugins=["ZopeSkel"],
       )
