@@ -31,31 +31,31 @@
         upgrade to a modern web browser.</p>
       </div>
       <div class="ie8nomore-browser">
-        <a href="http://www.firefox.com/" target="_blank">
+        <a href="http://www.firefox.com/" target="_blank" title="Get Firefox" i18n:attributes="title">
           <img tal:attributes="src string:${navroot}/++resource++collective.ie8nomore/firefox.png"
                style="border: none;" alt="Get Firefox" i18n:attributes="alt"/>
         </a>
       </div>
       <div class="ie8nomore-browser">
-        <a href="http://www.apple.com/safari/download/" target="_blank">
+        <a href="http://www.apple.com/safari" target="_blank" title="Get Safari" i18n:attributes="title">
           <img tal:attributes="src string:${navroot}/++resource++collective.ie8nomore/safari.png"
                style="border: none;" alt="Get Safari" i18n:attributes="alt"/>
         </a>
       </div>
       <div class="ie8nomore-browser">
-        <a href="http://www.google.com/chrome/" target="_blank">
+        <a href="http://www.google.com/chrome" target="_blank" title="Get Google Chrome" i18n:attributes="title">
           <img tal:attributes="src string:${navroot}/++resource++collective.ie8nomore/chrome.png"
                style="border: none;" alt="Get Google Chrome" i18n:attributes="alt"/>
         </a>
       </div>
       <div class="ie8nomore-browser">
-        <a href="http://www.opera.com/" target="_blank">
+        <a href="http://www.opera.com/" target="_blank" title="Get Opera" i18n:attributes="title">
           <img tal:attributes="src string:${navroot}/++resource++collective.ie8nomore/opera.png"
                style="border: none;" alt="Get Opera" i18n:attributes="alt"/>
         </a>
       </div>
       <div class="ie8nomore-browser last">
-        <a href='http://www.browserforthebetter.com/' target='_blank'>
+        <a href='http://www.microsoft.com/ie' target='_blank' title="Get Internet Explorer" i18n:attributes="title">
           <img tal:attributes="src string:${navroot}/++resource++collective.ie8nomore/ie.png"
                  style="border: none;" alt="Get Internet Explorer" i18n:attributes="alt"/>
           </a>
