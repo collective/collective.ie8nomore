@@ -38,6 +38,12 @@ msgstr "Scarica Google Chrome"
 msgid "Get Safari"
 msgstr "Scarica Safari"
 
+msgid "Get Opera"
+msgstr "Scarica Opera"
+
+msgid "Get Internet Explorer"
+msgstr "Scarica Internet Explorer"
+
 #: ./ie8nomore.pt:14
 msgid "Warning!"
 msgstr "Attenzione!"
