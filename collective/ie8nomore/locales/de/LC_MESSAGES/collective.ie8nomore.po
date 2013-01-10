@@ -29,6 +29,12 @@ msgstr "Google Chrome herunterladen"
 msgid "Get Safari"
 msgstr "Safari herunterladen"
 
+msgid "Get Opera"
+msgstr "Opera herunterladen"
+
+msgid "Get Internet Explorer"
+msgstr "Internet Explorer herunterladen"
+
 msgid "Warning!"
 msgstr "Hinweis:"
 
