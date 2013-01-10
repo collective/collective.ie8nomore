@@ -1,11 +1,21 @@
 Changelog
 =========
 
-0.5 (unreleased)
-----------------
+0.5dev (unreleased)
+-------------------
+
+ * Modernized Icons, template optimizations.
+   [thet]
+
+ * Added Internet Explorer and Opera to alternative Browsers.
+   [thet]
+
+ * Added German translation.
+   [thet]
 
  * Added Italian translation
-  [giacomos] 
+   [giacomos] 
+
 
 0.4 (16-Dec-2011)
 -----------------
@@ -43,4 +53,3 @@ Changelog
  * Package created using zopeskel
 
  * Add the viewlet.
-
