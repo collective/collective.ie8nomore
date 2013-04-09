@@ -4,19 +4,14 @@ import os
 version = '0.5'
 
 long_description = (
-    open('README.txt').read()
-    + '\n' +
-    open(os.path.join('docs', 'CONTRIBUTORS.txt')).read()
-    + '\n' +
-    open(os.path.join('docs', 'CHANGES.txt')).read()
-    + '\n')
+    open('README.txt').read() + '\n' +
+    open(os.path.join('docs', 'CONTRIBUTORS.txt')).read() + '\n' +
+    open(os.path.join('docs', 'CHANGES.txt')).read() + '\n')
 
 setup(name='collective.ie8nomore',
       version=version,
       description="Plone viewlet to prompt users to upgrade to a better web browser.",
       long_description=long_description,
-      # Get more strings from
-      # http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
         "Development Status :: 4 - Beta",
         "Framework :: Plone",
@@ -46,5 +41,4 @@ setup(name='collective.ie8nomore',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      paster_plugins=["ZopeSkel"],
       )
