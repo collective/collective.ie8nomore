@@ -3,9 +3,9 @@
   <style type="text/css">
     .ie8nomore-box { border: 1px solid #F7941D; background: #FEEFDA; clear: both; position: relative; }
     .ie8nomore-close { position: absolute; right: 3px; top: 3px; }
-    .ie8nomore-inner { width: 700px; margin: 0 auto; padding: 0; overflow: hidden; color: black; }
+    .ie8nomore-inner { width: 730px; margin: 0 auto; padding: 0; overflow: hidden; color: black; }
     .ie8nomore-warning { width: 75px; float: left; }
-    .ie8nomore-text { width: 350px; float: left; }
+    .ie8nomore-text { width: 350px; float: left; padding-right: 1em; }
     .ie8nomore-text h2 { font-size: 14px; font-weight: bold; margin-top: 12px; }
     .ie8nomore-text p { font-size: 12px; margin-top: 6px; line-height: 12px; }
     .ie8nomore-browser { float: left; width: 50px; margin:12px 5px 12px 0; }
@@ -37,15 +37,15 @@
         </a>
       </div>
       <div class="ie8nomore-browser">
-        <a href="http://www.apple.com/safari" target="_blank" title="Get Safari" i18n:attributes="title">
-          <img tal:attributes="src string:${navroot}/++resource++collective.ie8nomore/safari.png"
-               style="border: none;" alt="Get Safari" i18n:attributes="alt"/>
-        </a>
-      </div>
-      <div class="ie8nomore-browser">
         <a href="http://www.google.com/chrome" target="_blank" title="Get Google Chrome" i18n:attributes="title">
           <img tal:attributes="src string:${navroot}/++resource++collective.ie8nomore/chrome.png"
                style="border: none;" alt="Get Google Chrome" i18n:attributes="alt"/>
+        </a>
+      </div>
+      <div class="ie8nomore-browser">
+        <a href="http://www.apple.com/safari" target="_blank" title="Get Safari" i18n:attributes="title">
+          <img tal:attributes="src string:${navroot}/++resource++collective.ie8nomore/safari.png"
+               style="border: none;" alt="Get Safari" i18n:attributes="alt"/>
         </a>
       </div>
       <div class="ie8nomore-browser">
