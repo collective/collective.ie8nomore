@@ -1,6 +1,14 @@
 Changelog
 =========
 
+0.6-dev (unreleased)
+--------------------
+
+ * Changed condition of this viewlet to be less then IE9 since this package is
+   called ie8 no more
+   [ichim-david]
+
+
 0.5 (2013-04-09)
 ----------------
 

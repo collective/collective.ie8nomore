@@ -1,5 +1,5 @@
 <div id="portal-ie8nomore">
-<tal:iefixstart replace="structure string:&lt;!--[if lte IE 9]&gt;"/>
+<tal:iefixstart replace="structure string:&lt;!--[if lt IE 9]&gt;"/>
   <style type="text/css">
     .ie8nomore-box { border: 1px solid #F7941D; background: #FEEFDA; clear: both; position: relative; }
     .ie8nomore-close { position: absolute; right: 3px; top: 3px; }
