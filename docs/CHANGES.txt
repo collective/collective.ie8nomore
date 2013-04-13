@@ -4,6 +4,9 @@ Changelog
 0.6-dev (unreleased)
 --------------------
 
+ * Moved Chrome icon before Safari in the browser ballot 
+   [ichim-david]
+
  * Added romanian translation
    [ichim-david]
 
