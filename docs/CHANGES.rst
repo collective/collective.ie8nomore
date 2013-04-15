@@ -1,8 +1,8 @@
 Changelog
 =========
 
-0.6-dev (unreleased)
---------------------
+0.6 (2013-04-15)
+----------------
 
  * Moved Chrome icon before Safari in the browser ballot 
    [ichim-david]
