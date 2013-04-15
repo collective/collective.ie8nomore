@@ -31,3 +31,7 @@ buildout::
 You don't need to install the product in the control panel. You just need to
 restart Plone and configure the order of your viewlets. To be able to do so, 
 visit http://plonesite/@@manage-viewlets .
+
+Author
+------
+ * Noe Nieto.

@@ -4,9 +4,8 @@ import os
 version = '0.6-dev'
 
 long_description = (
-    open('README.txt').read() + '\n' +
-    open(os.path.join('docs', 'CONTRIBUTORS.txt')).read() + '\n' +
-    open(os.path.join('docs', 'CHANGES.txt')).read() + '\n')
+    open('README.rst').read() + '\n' +
+    open(os.path.join('docs', 'CHANGES.rst')).read() + '\n')
 
 setup(name='collective.ie8nomore',
       version=version,

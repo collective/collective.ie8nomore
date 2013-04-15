@@ -1,5 +1,0 @@
-Contributors
-============
-
- * Noe Nieto, original author.
- * Johannes Raggam
